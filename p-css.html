@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="p-css.css">
+  <link rel="stylesheet" href="bootstrap/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+  <title>Magma web</title>
+</head>
+<body class="col-12" style="background-color: #27476E;">
+
+  <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous">
+</script>
+
+<!-- Primero cargamos Jquery -->
+<script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+ integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous">
+</script>
+ 
+<!-- Creamos nuestra función -->
+<script type="text/javascript">
+	$( document ).ready(function() {
+		$('#menu_on').click(function(){ // Al hacer click...
+		   $('body').toggleClass('visible_menu'); // Añadimos o eliminamos la clase 'visible_menu' al body
+		 })
+	});
+</script>
+
+  <div id="wrapper">
+    <header id="#header">
+      <a href="#" id="menu_on">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+      </header>
+      <nav>	
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="sobreMi.html">Sobre mi</a></li>
+          <li><a href="proyectos.html">Proyectos</a></li>
+          <li><a href="historial-desarrollo.html">Historial de desarrollo</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="creditos.html">Créditos</a></li>
+          <li><a href="face.html">???</a></li>
+        </ul>
+      </nav>
+  </div>
+
+<div id="indicador">
+    PROYECTOS-CSS BASE
+</div>
+
+<button id="atras" type="button" class="btn btn-secondary btn-sm"><a href="http://127.0.0.1:5500/magma-web/CSS.html">Volver atrás</a></button>
+
+
+<!-- Inicio proyectos de css -->
+<div class="card" style="width: 18rem; margin-left: 100px; margin-top: 100px;">
+    <img src="img/SELECTORES.PNG" class="card-img-top" alt="Imágen de selectores" style="padding: 10px;">
+    <div class="card-body">
+      <h5 class="card-title">SELECTORES</h5>
+      <p class="card-text">Los selectores identifican a un elemento dentro de la página Web para luego poder definir sus propiedades. Los distintos tipos de selectores abarcan desde el simple nombre de las etiquetas usadas en HTML ( BODY , P , CODE , TABLE , UL , etc.)</p>
+      <a href="http://127.0.0.1:5500/aprendiendo%20css/01-selectores/index.html" target="_blank" class="btn btn-primary">Entrar</a>
+    </div>
+  </div>
+
+  <div  class="card" style="width: 18rem; margin-left: 800px; margin-top: -458px;">
+    <img src="img/Fuentes-css.PNG" class="card-img-top" alt="Imágen de fuentes" style="padding: 10px;">
+    <div class="card-body">
+      <h5 class="card-title">Fuentes</h5>
+      <p class="card-text">Las propiedades CSS de las fuentes son las que permiten controlar el tamaño, el tipo, el grosor o el estilo de las letras, entre otras cosas. En la siguiente tabla se muestran las propiedades de las fuentes más destacadas.</p>
+      <a href="http://127.0.0.1:5500/aprendiendo%20css/02-fuentes/index.html" target="_blank" class="btn btn-primary">Entrar</a>
+    </div>
+  </div>
+
+  <div  class="card" style="width: 18rem; margin-left: 1500px; margin-top: -365px;">
+    <img src="img/fondos-CSS.PNG" class="card-img-top" alt="Imágen de fuentes" style="padding: 10px;">
+    <div class="card-body">
+      <h5 class="card-title">Fondos</h5>
+      <p class="card-text">CSS permite establecer de forma simultánea un color y una imagen de fondo. En este caso, la imagen se muestra delante del color, por lo que solamente si la imagen contiene zonas transparentes es posible ver el color de fondo. Las imágenes de fondo se indican a través de su URL.</p>
+      <a href="http://127.0.0.1:5500/aprendiendo%20css/03-fondos/index.html" target="_blank" class="btn btn-primary">Entrar</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem; margin-left: 100px; margin-top: 200px;">
+    <img src="img/Cajas-CSS.PNG" class="card-img-top" alt="Imágen de selectores" style="padding: 10px;">
+    <div class="card-body">
+      <h5 class="card-title">Cajas</h5>
+      <p class="card-text">El modelo de caja CSS es un módulo CSS que define cajas rectangulares, incluyendo sus rellenos y márgenes, que son generadas para los elementos y que se disponen de acuerdo al modelo de formato visual.</p>
+      <a href="http://127.0.0.1:5500/aprendiendo%20css/04-cajas/index.html" target="_blank" class="btn btn-primary">Entrar</a>
+    </div>
+  </div>
+
+  <div  class="card" style="width: 18rem; margin-left: 800px; margin-top: -505px;">
+    <img src="img/Ejercicio-CSS.PNG" class="card-img-top" alt="Imágen de fuentes" style="padding: 10px;">
+    <div class="card-body">
+      <h5 class="card-title">Ejercicio de selectores, fuentes, fondos y cajas</h5>
+      <p class="card-text">Un ejercicio que reune todo lo anterior visto.</p>
+      <a href="http://127.0.0.1:5500/aprendiendo%20css/05-ejercicio/index.html" target="_blank" class="btn btn-primary">Entrar</a>
+    </div>
+  </div>
+
+  <div  class="card" style="width: 18rem; margin-left: 1500px; margin-top: -365px;">
+    <img src="img/Pseudoclases.PNG" class="card-img-top" alt="Imágen de fuentes" style="padding: 10px;">
+    <div class="card-body">
+      <h5 class="card-title">Pseudoclases</h5>
+      <p class="card-text">Una pseudoclase CSS es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado. Por ejemplo, :hover aplicará un estilo cuando el usuario haga hover sobre el elemento especificado por el selector.</p>
+      <a href="http://127.0.0.1:5500/aprendiendo%20css/06-pseudoclases/index.html" target="_blank" class="btn btn-primary">Entrar</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem; margin-left: 100px; margin-top: 200px;">
+    <img src="img/Animaciones-CSS.PNG" class="card-img-top" alt="Imágen de selectores" style="padding: 10px;">
+    <div class="card-body">
+      <h5 class="card-title">Animaciones</h5>
+      <p class="card-text">CSS provee también de una serie de efectos que imprimen movimiento a las imágenes, transformándolas y animándolas. Combinándolas además se pueden conseguir efectos espectaculares. Algunos de ellos implican usar un contenedor, un div que contiene la imagen, y que definiré con la clase.</p>
+      <a href="http://127.0.0.1:5500/aprendiendo%20css/07-animaciones-tranciones/index.html" target="_blank" class="btn btn-primary">Entrar</a>
+    </div>
+  </div>
+
+  <div  class="card" style="width: 18rem; margin-left: 800px; margin-top: -480px;">
+    <img src="img/Proyecto-CSS.PNG" class="card-img-top" alt="Imágen de fuentes" style="padding: 10px;">
+    <div class="card-body">
+      <h5 class="card-title">Proyecto foro</h5>
+      <p class="card-text">Un simple proyecto con puro CSS.</p>
+      <a href="http://127.0.0.1:5500/maquetacion-1/img/index.html" target="_blank" class="btn btn-primary">Entrar</a>
+    </div>
+  </div>
+
+  <div  class="card" style="width: 18rem; margin-left: 1500px; margin-top: -330px;">
+    <img src="img/Proyecto blog-CSS.PNG" class="card-img-top" alt="Imágen de fuentes" style="padding: 10px;">
+    <div class="card-body">
+      <h5 class="card-title">Proyecto blog</h5>
+      <p class="card-text">Un simple proyecto con puro CSS.</p>
+      <a href="http://127.0.0.1:5500/maquetacion-2/index.html" target="_blank" class="btn btn-primary">Entrar</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem; margin-left: 100px; margin-top: 300px;">
+    <img src="img/Tanque-CSS BASE.PNG" class="card-img-top" alt="Imágen de selectores" style="padding: 10px;">
+    <div class="card-body">
+      <h5 class="card-title">PROYECTO TANQUE</h5>
+      <p class="card-text">Un simple proyecto sobre un tanque de puro css</p>
+      <a href="http://127.0.0.1:5500/animacion-tank/index.html#" target="_blank" class="btn btn-primary">Entrar</a>
+    </div>
+  </div>
+
+  <div  class="card" style="width: 18rem; margin-left: 800px; margin-top: -300px;">
+    <img src="img/Proyecto tienda de pelis-CSS BASE.PNG" class="card-img-top" alt="Imágen de fuentes" style="padding: 10px;">
+    <div class="card-body">
+      <h5 class="card-title">PROYECTO TIENDA DE PELICULAS</h5>
+      <p class="card-text">Un siple proyecto sobre una tienda de películas de puro CSS.</p>
+      <a href="http://127.0.0.1:5500/practicas/tienda-pelis/index.html" target="_blank" class="btn btn-primary">Entrar</a>
+    </div>
+  </div>
+
+  
+
+
+
+<!-- Fin proyectos de css -->
+
+  <footer class="col-4" style="margin-top: 250px;">
+    <div id="copy" class="w-50 h-50" style="background-color: #006992;">
+      &copy; Desarrollado por Miguel Torres Martínez
+    </div>
+  </footer>
+</body>
+</html>
+      
+
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+     <!-- Scripteando javascript -->
+     <script type="text/javascript" src="jquery/jquery-3.6.0.min.js"></script>
+     <!-- Scripteando bootstrap-javascript -->
+     <script type="text/javascript" src="bootstrap/bootstrap-5.1.3-dist/css/bootstrap.min.css"></script>
+</body>
+</html>
